@@ -2,6 +2,7 @@
 #include <htslib/vcf.h>
 
 int main(int argc, char *argv[]) {
+	
 	if (argc != 4) {
         fprintf(stderr, "Usage: %s input.vcf output.vcf mnv_radius\n", argv[0]);
         return 1;
