@@ -30,7 +30,7 @@ cat test/test.vcf.gz | ./annotate_mnv - - > test/test_mnv_annotated.vcf
 cat test/test_merged.vcf.gz | ./annotate_mnv - - > test/test_merged_mnv_annotated.vcf
 ```
 
-## Compiling annotate_af
+## Compiling annotate_mnv
 
 If you need to compile ```annotate_mnv``` from source, first load HTSLib. You can then compile the executable using the following command:
 
